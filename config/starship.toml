@@ -1,0 +1,54 @@
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[➜](bold red)"
+
+[battery]
+disabled = true
+
+[directory]
+truncate_to_repo = false
+truncation_length = 10
+truncation_symbol = ".../"
+style = "bold green"
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[docker_context]
+symbol = " "
+
+[dotnet]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[golang]
+symbol = "ﳑ "
+
+[java]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[php]
+symbol = " "
+
+[python]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[swift]
+symbol = "ﯣ "
