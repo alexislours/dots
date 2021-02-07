@@ -20,7 +20,7 @@ for file in ~/.zsh/*.zsh; do
   source "$file"
 done
 
-export PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/alexislours/.cargo/bin
 export GPG_TTY=$(tty)
 eval "$(starship init zsh)"
 
