@@ -22,6 +22,14 @@ defaults write com.apple.Finder AppleShowAllFiles -bool true
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # Save to disk instead of iCloud
 defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+# Show Drives
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
+# Show Path Bar
+defaults write com.apple.finder ShowPathbar -bool true
+# Show Library
+chflags nohidden ~/Library
 killall Finder
 
 ## Time
