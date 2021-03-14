@@ -2,5 +2,6 @@
     "workbench.colorTheme": "One Dark Pro",
     "editor.fontFamily": "Cascadia Code",
     "editor.fontLigatures": true,
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "angular.experimental-ivy": true
 }
